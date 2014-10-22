@@ -1,7 +1,7 @@
 let odwroc n =
     let rec loop n x =
         if n = 0 then x else
-            loop (n/10) ((n mod 10)+x*10)
+            loop (n/10) ((sdn mod 10)+x*10)
     in
         loop n 0;;
 
@@ -15,3 +15,8 @@ let silnia_o n =
             loop (n-1) (akr*n)
     in
         loop n 1;;
+        
+
+let rec silnia n =
+    if n = 0 then 1 else
+        n * (silnia (n-1));;
