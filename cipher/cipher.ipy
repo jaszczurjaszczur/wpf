@@ -1,7 +1,0 @@
-try:
-    from simplecrypt import encrypt, decrypt
-except ImportError:
-    print "Please do: pip install simplecrypt"
-    exit()
-
-
