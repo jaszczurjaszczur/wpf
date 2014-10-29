@@ -12,12 +12,12 @@ let oblicz w x =
 
 let suma w1 w2 =
     (** Suma wielomianów *)
-    let sum (x, y) =
-        x +. y
-    in List.map sum (List.combine w1 w2)
+    let loop w1 w2 =
+        match w1 w2 with
+            
 
 let iloczyn w1 w2 =
-    
+    let loop w1 
 
 (*
 val iloczyn : wielomian -> wielomian -> wielomian (** Iloczyn wielomianów *)
