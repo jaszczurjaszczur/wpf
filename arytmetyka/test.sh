@@ -1,6 +1,4 @@
-ocamlc -c arytmetyka.mli
-ocamlc -c arytmetyka.ml
-ocamlc -c arytest.ml
+ocamlc -c *.mli *.ml
 ocamlc -o script_test arytmetyka.cmo arytest.cmo
 chmod +x script_test
 ./script_test
